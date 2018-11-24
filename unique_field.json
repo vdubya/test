@@ -14,7 +14,10 @@
             "title": "Name",
             "type": "string",
             "description": "The name.",
-            "enum": ["Argentina", "Armenia", "Aruba", "Australia", "Austria"]
+            "constraints": {
+                "required": true,
+                "enum": ["Argentina", "Armenia", "Aruba", "Australia", "Austria"]
+            }
         },
         {
             "name": "slug",
